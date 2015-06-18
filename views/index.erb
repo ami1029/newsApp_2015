@@ -1,0 +1,55 @@
+<ul>
+<h3 id="topic">主要</h3>
+<% @top.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="dom">国内</h3>
+<% @dom.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<h5 id="dom">関連記事</h5>
+<% @dom_rel.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="int">海外</h3>
+<% @int.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="eco">IT・経済</h3>
+<% @eco.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="ent">芸能</h3>
+<% @ent.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="spo">スポーツ</h3>
+<% @spo.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="mov">映画</h3>
+<% @mov.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="gourmet">グルメ</h3>
+<% @gourmet.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="love">女子</h3>
+<% @love.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<h3 id="trend">トレンド</h3>
+<% @trend.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+</ul>

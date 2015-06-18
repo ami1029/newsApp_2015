@@ -1,0 +1,13 @@
+<ul>
+<% @top.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<% @dom.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+<br>
+<% @int.items.each do |entry| %>
+  <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+<% end %>
+</ul>

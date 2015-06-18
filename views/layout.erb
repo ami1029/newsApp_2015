@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>NewsApp</title>
+    <meta charset="utf-8">
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="top">
+      <div id="header">
+	<h1>livedoor NEWS</h1>
+	<p>世の中のことをもう少し知ろう</p>
+      </div>
+      <div id="menu">
+	<li><a href="#topic">主要</a></li>
+	<li><a href="#dom">国内</a></li>
+	<li><a href="#int">海外</a></li>
+	<li><a href="#eco">IT・経済</a></li>
+	<li><a href="#ent">芸能</a></li>
+	<li><a href="#spo">スポーツ</a></li>
+	<li><a href="#mov">映画</a></li>
+	<li><a href="#gourmet">グルメ</a></li>
+	<li><a href="#love">女子</a></li>
+	<li><a href="#trend">トレンド</a></li>
+      </div>
+      <%= yield %>
+    </div>
+  </body>
+</html>
